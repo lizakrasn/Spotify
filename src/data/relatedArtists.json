@@ -1,0 +1,22 @@
+[
+  {
+    "artist": "Hoodie Allen",
+    "imgUrl": "/images/hoodie.jpg"
+  },
+  {
+    "artist": "Mike Stud",
+    "imgUrl": "/images/mikestud.jpg"
+  },
+  {
+    "artist": "Drake",
+    "imgUrl": "/images/drake.jpg"
+  },
+  {
+    "artist": "J. Cole",
+    "imgUrl": "/images/jcole.jpg"
+  },
+  {
+    "artist": "Big Sean",
+    "imgUrl": "/images/bigSean.jpg"
+  }
+]

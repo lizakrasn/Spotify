@@ -1,0 +1,8 @@
+.related-artists {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    margin: 15px;
+  }
+}

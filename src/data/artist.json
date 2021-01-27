@@ -1,0 +1,177 @@
+{
+  "name": "G-Eazy",
+  "id": 1,
+  "imgUrl": "/images/g-eazy.jpg",
+  "backgroundImgUrl": "/images/bg-artist.png",
+  "listeners": 15662810,
+  "albums": [
+    {
+      "id": 1,
+      "name": "When It's Dark Out",
+      "imgUrl": "",
+      "release": {
+        "year": 2015,
+        "month": "december",
+        "day": 25
+      },
+      "artistId": 1,
+      "songs": [
+        {
+          "name": "Intro",
+          "imgUrl": "",
+          "durationSeconds" : 71,
+          "id": 1,
+          "albumId": 1,
+          "coartists": []
+        },
+        {
+          "name": "Random",
+          "imgUrl": "",
+          "durationSeconds" : 180,
+          "id": 2,
+          "albumId": 1,
+          "coartists": []
+        },
+        {
+          "name": "Me, Myself & I",
+          "imgUrl": "",
+          "durationSeconds" : 251,
+          "id": 3,
+          "albumId": 1,
+          "coartists": ["Bebe Rexha"]
+        },
+        {
+          "name": "One Of Them",
+          "imgUrl": "",
+          "durationSeconds" : 200,
+          "id": 4,
+          "albumId": 1,
+          "coartists": ["Big Sean"]
+        },
+        {
+          "name": "Drifting",
+          "imgUrl": "",
+          "durationSeconds" : 273,
+          "id": 5,
+          "albumId": 1,
+          "coartists": ["Chris Brown", "Tory Lanez"]
+        },
+        {
+          "name": "Of All Things",
+          "imgUrl": "",
+          "durationSeconds" : 214,
+          "id": 6,
+          "albumId": 1,
+          "coartists": ["Too $hort"]
+        },
+        {
+          "name": "Order More",
+          "imgUrl": "",
+          "durationSeconds" : 209,
+          "id": 7,
+          "albumId": 1,
+          "coartists": ["Starrah"]
+        },
+        {
+          "name": "Calm Down",
+          "imgUrl": "",
+          "durationSeconds" : 127,
+          "id": 8,
+          "albumId": 1,
+          "coartists": []
+        },
+        {
+          "name": "Don't Let Me Go",
+          "imgUrl": "",
+          "durationSeconds" : 191,
+          "id": 9,
+          "albumId": 1,
+          "coartists": ["Grace"]
+        },
+        {
+          "name": "You Got Me",
+          "imgUrl": "",
+          "durationSeconds" : 203,
+          "id": 10,
+          "albumId": 1,
+          "coartists": []
+        },
+        {
+          "name": "What If",
+          "imgUrl": "",
+          "durationSeconds" : 253,
+          "id": 11,
+          "albumId": 1,
+          "coartists": ["Gizzle"]
+        },
+        {
+          "name": "Some Kind Of Drug",
+          "imgUrl": "",
+          "durationSeconds" : 223,
+          "id": 12,
+          "albumId": 1,
+          "coartists": ["Marc E. Bassy"]
+        }
+      ]
+    }
+  ],
+  "lastAlbum": {
+    "id": 2,
+    "name": "Drifting (Track Commentary)",
+    "imgUrl": "",
+    "release": {
+      "year": 2015,
+      "month": "december",
+      "day": 4
+    },
+    "artistId": 1,
+    "songs": []
+  },
+  "popularSongs": [
+    {
+      "name": "Me, Myself & I",
+      "imgUrl": "",
+      "listens": 147544165,
+      "durationSeconds" : 245,
+      "id": 1,
+      "albumId": 1,
+      "coartists": []
+    },
+    {
+      "name": "I Mean It",
+      "imgUrl": "",
+      "listens": 74568782,
+      "durationSeconds" : 205,
+      "id": 2,
+      "albumId": 1,
+      "coartists": []
+    },
+    {
+      "name": "Calm Down",
+      "imgUrl": "",
+      "listens": 13737506,
+      "durationSeconds" : 185,
+      "id": 3,
+      "albumId": 1,
+      "coartists": []
+    },
+    {
+      "name": "Some Kind Of Drug",
+      "imgUrl": "",
+      "listens": 12234881,
+      "durationSeconds" : 265,
+      "id": 4,
+      "albumId": 1,
+      "coartists": []
+    },
+    {
+      "name": "Let's Get Lost",
+      "imgUrl": "",
+      "listens": 40882954,
+      "durationSeconds" : 198,
+      "id": 5,
+      "albumId": 1,
+      "coartists": []
+    }
+  ]
+}
