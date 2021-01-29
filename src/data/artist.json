@@ -21,6 +21,7 @@
           "imgUrl": "",
           "durationSeconds" : 71,
           "id": 1,
+          "listens": 1,
           "albumId": 1,
           "coartists": []
         },
@@ -29,6 +30,7 @@
           "imgUrl": "",
           "durationSeconds" : 180,
           "id": 2,
+          "listens": 1,
           "albumId": 1,
           "coartists": []
         },
@@ -36,6 +38,7 @@
           "name": "Me, Myself & I",
           "imgUrl": "",
           "durationSeconds" : 251,
+          "listens": 1,
           "id": 3,
           "albumId": 1,
           "coartists": ["Bebe Rexha"]
@@ -44,6 +47,7 @@
           "name": "One Of Them",
           "imgUrl": "",
           "durationSeconds" : 200,
+          "listens": 1,
           "id": 4,
           "albumId": 1,
           "coartists": ["Big Sean"]
@@ -52,6 +56,7 @@
           "name": "Drifting",
           "imgUrl": "",
           "durationSeconds" : 273,
+          "listens": 1,
           "id": 5,
           "albumId": 1,
           "coartists": ["Chris Brown", "Tory Lanez"]
@@ -60,6 +65,7 @@
           "name": "Of All Things",
           "imgUrl": "",
           "durationSeconds" : 214,
+          "listens": 1,
           "id": 6,
           "albumId": 1,
           "coartists": ["Too $hort"]
@@ -68,6 +74,7 @@
           "name": "Order More",
           "imgUrl": "",
           "durationSeconds" : 209,
+          "listens": 1,
           "id": 7,
           "albumId": 1,
           "coartists": ["Starrah"]
@@ -76,6 +83,7 @@
           "name": "Calm Down",
           "imgUrl": "",
           "durationSeconds" : 127,
+          "listens": 1,
           "id": 8,
           "albumId": 1,
           "coartists": []
@@ -84,6 +92,7 @@
           "name": "Don't Let Me Go",
           "imgUrl": "",
           "durationSeconds" : 191,
+          "listens": 1,
           "id": 9,
           "albumId": 1,
           "coartists": ["Grace"]
@@ -92,6 +101,7 @@
           "name": "You Got Me",
           "imgUrl": "",
           "durationSeconds" : 203,
+          "listens": 1,
           "id": 10,
           "albumId": 1,
           "coartists": []
@@ -100,6 +110,7 @@
           "name": "What If",
           "imgUrl": "",
           "durationSeconds" : 253,
+          "listens": 1,
           "id": 11,
           "albumId": 1,
           "coartists": ["Gizzle"]
@@ -108,6 +119,7 @@
           "name": "Some Kind Of Drug",
           "imgUrl": "",
           "durationSeconds" : 223,
+          "listens": 1,
           "id": 12,
           "albumId": 1,
           "coartists": ["Marc E. Bassy"]
@@ -130,7 +142,7 @@
   "popularSongs": [
     {
       "name": "Me, Myself & I",
-      "imgUrl": "",
+      "imgUrl": "/images/song-image-2.jpg",
       "listens": 147544165,
       "durationSeconds" : 245,
       "id": 1,
@@ -139,7 +151,7 @@
     },
     {
       "name": "I Mean It",
-      "imgUrl": "",
+      "imgUrl": "/images/song-image.jpg",
       "listens": 74568782,
       "durationSeconds" : 205,
       "id": 2,
@@ -148,7 +160,7 @@
     },
     {
       "name": "Calm Down",
-      "imgUrl": "",
+      "imgUrl": "/images/song-image-2.jpg",
       "listens": 13737506,
       "durationSeconds" : 185,
       "id": 3,
@@ -157,7 +169,7 @@
     },
     {
       "name": "Some Kind Of Drug",
-      "imgUrl": "",
+      "imgUrl": "/images/song-image-2.jpg",
       "listens": 12234881,
       "durationSeconds" : 265,
       "id": 4,
@@ -166,7 +178,7 @@
     },
     {
       "name": "Let's Get Lost",
-      "imgUrl": "",
+      "imgUrl": "/images/song-image.jpg",
       "listens": 40882954,
       "durationSeconds" : 198,
       "id": 5,

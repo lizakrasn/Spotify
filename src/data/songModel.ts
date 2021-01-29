@@ -1,9 +1,9 @@
 export default interface SongModel {
   name: string,
   imgUrl: string,
-  listens?: number,
+  listens: number,
   durationSeconds : number,
   id: number,
   albumId: number,
-  coartists : string []
+  coartists : string[]
 }

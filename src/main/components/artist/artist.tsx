@@ -3,6 +3,7 @@ import ArtistModel from '../../../data/artist';
 import './artist.scss';
 import { Button } from '../../../ui/button/button';
 import { RelatedArtists } from '../relatedArtists/relatedArtists';
+import { Overview } from '../overview/overview';
 import artistsData from '../../../data/relatedArtists.json';
 
 import { BiDotsHorizontalRounded } from 'react-icons/bi';
@@ -10,10 +11,8 @@ import { BsFillPlayFill } from 'react-icons/bs';
 import { Tabs } from '../../../ui/tabs/Tabs';
 import TabsModel from '../../../data/tabs';
 
-
-
 interface ArtistProps {
-  artist: ArtistModel,
+  artist: ArtistModel
 }
 
 const tabs = [
@@ -78,9 +77,23 @@ export const Artist = ({artist}: ArtistProps) => {
         </div>
       </div>
 
-      <div className="artist__related-artists">
-        <RelatedArtists artistsData={relatedArtists}/>
-      </div>
+      {activeTab.value === 'related'
+        ? (
+          <div className="artist__related-artists">
+            <RelatedArtists artistsData={relatedArtists}/>
+          </div>
+        )
+        : (
+          <div>
+            <Overview 
+              albums={artist.albums}
+              lastAlbum={artist.lastAlbum}
+              popularSongs={artist.popularSongs}
+              relatedArtists={relatedArtists}
+            />
+          </div>
+        )
+      }
     </div>
   )
 }

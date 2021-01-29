@@ -1,5 +1,5 @@
 .tabs {
-  width: 800px;
+  width: 100%;
   text-decoration: none;
 
   &__list {
@@ -7,9 +7,8 @@
   }
 
   &__tab {
-    width: 100%;
     flex-grow: 1;
-    padding: 15px 0;
+    padding: 15px;
 
     text-transform: uppercase;
     text-align: center;

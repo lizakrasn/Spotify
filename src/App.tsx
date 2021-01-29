@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Main artist={artist} />
-      <div style={{height: "100px"}}>
+      <div style={{height: "50px"}}>
         <p>Footer Hello!</p>
       </div>
     </div>

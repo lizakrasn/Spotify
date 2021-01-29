@@ -1,0 +1,15 @@
+@import '../../../helpers/variables';
+
+.overview {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    text-transform: uppercase;
+    color: $grey;
+    letter-spacing: 1.25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+}
