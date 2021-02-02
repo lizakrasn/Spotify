@@ -10,10 +10,7 @@ import { BiDotsHorizontalRounded } from 'react-icons/bi';
 import { BsFillPlayFill } from 'react-icons/bs';
 import { Tabs } from '../../../ui/tabs/Tabs';
 import TabsModel from '../../../data/tabs';
-
-interface ArtistProps {
-  artist: ArtistModel
-}
+import artistData from '../../../data/artistData';
 
 const tabs = [
   {
@@ -26,9 +23,10 @@ const tabs = [
   }
 ]
 
-export const Artist = ({artist}: ArtistProps) => {
+export const Artist = () => {
   const [relatedArtists, setRelatedArtists] = useState(artistsData);
   const [activeTab, setActiveTab] = useState(tabs[0]);
+  const [artist, setArtist] = useState(artistData);
 
   return (
     <div className="artist">

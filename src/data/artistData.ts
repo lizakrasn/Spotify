@@ -1,4 +1,7 @@
-{
+import { Artist } from "../main/components/artist/artist"
+import ArtistModel from './artist';
+
+export default <ArtistModel>{
   "name": "G-Eazy",
   "id": 1,
   "imgUrl": "/images/g-eazy.jpg",
@@ -8,7 +11,7 @@
     {
       "id": 1,
       "name": "When It's Dark Out",
-      "imgUrl": "",
+      "imgUrl": "/images/song-image-2.jpg",
       "release": {
         "year": 2015,
         "month": "december",
@@ -23,7 +26,9 @@
           "id": 1,
           "listens": 1,
           "albumId": 1,
-          "coartists": []
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": ""
         },
         {
           "name": "Random",
@@ -32,7 +37,9 @@
           "id": 2,
           "listens": 1,
           "albumId": 1,
-          "coartists": []
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": ""
         },
         {
           "name": "Me, Myself & I",
@@ -41,7 +48,9 @@
           "listens": 1,
           "id": 3,
           "albumId": 1,
-          "coartists": ["Bebe Rexha"]
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": "Bebe Rexha"
         },
         {
           "name": "One Of Them",
@@ -50,7 +59,9 @@
           "listens": 1,
           "id": 4,
           "albumId": 1,
-          "coartists": ["Big Sean"]
+          "popularity": "down",
+          "isAdded": true,
+          "coartists": "Big Sean"
         },
         {
           "name": "Drifting",
@@ -59,7 +70,9 @@
           "listens": 1,
           "id": 5,
           "albumId": 1,
-          "coartists": ["Chris Brown", "Tory Lanez"]
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": "Chris Brown, Tory Lanez"
         },
         {
           "name": "Of All Things",
@@ -68,7 +81,9 @@
           "listens": 1,
           "id": 6,
           "albumId": 1,
-          "coartists": ["Too $hort"]
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": "Too $hort"
         },
         {
           "name": "Order More",
@@ -77,7 +92,9 @@
           "listens": 1,
           "id": 7,
           "albumId": 1,
-          "coartists": ["Starrah"]
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": "Starrah"
         },
         {
           "name": "Calm Down",
@@ -86,7 +103,9 @@
           "listens": 1,
           "id": 8,
           "albumId": 1,
-          "coartists": []
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": ""
         },
         {
           "name": "Don't Let Me Go",
@@ -95,7 +114,9 @@
           "listens": 1,
           "id": 9,
           "albumId": 1,
-          "coartists": ["Grace"]
+          "popularity": "down",
+          "isAdded": false,
+          "coartists": "Grace"
         },
         {
           "name": "You Got Me",
@@ -104,7 +125,9 @@
           "listens": 1,
           "id": 10,
           "albumId": 1,
-          "coartists": []
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": ""
         },
         {
           "name": "What If",
@@ -113,7 +136,9 @@
           "listens": 1,
           "id": 11,
           "albumId": 1,
-          "coartists": ["Gizzle"]
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": "Gizzle"
         },
         {
           "name": "Some Kind Of Drug",
@@ -122,7 +147,9 @@
           "listens": 1,
           "id": 12,
           "albumId": 1,
-          "coartists": ["Marc E. Bassy"]
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": "Marc E. Bassy"
         }
       ]
     }
@@ -130,10 +157,10 @@
   "lastAlbum": {
     "id": 2,
     "name": "Drifting (Track Commentary)",
-    "imgUrl": "",
+    "imgUrl": "/images/song-image-2.jpg",
     "release": {
       "year": 2015,
-      "month": "december",
+      "month": "December",
       "day": 4
     },
     "artistId": 1,
@@ -147,7 +174,7 @@
       "durationSeconds" : 245,
       "id": 1,
       "albumId": 1,
-      "coartists": []
+      "coartists": ""
     },
     {
       "name": "I Mean It",
@@ -156,7 +183,7 @@
       "durationSeconds" : 205,
       "id": 2,
       "albumId": 1,
-      "coartists": []
+      "coartists": ""
     },
     {
       "name": "Calm Down",
@@ -165,7 +192,7 @@
       "durationSeconds" : 185,
       "id": 3,
       "albumId": 1,
-      "coartists": []
+      "coartists": ""
     },
     {
       "name": "Some Kind Of Drug",
@@ -174,7 +201,7 @@
       "durationSeconds" : 265,
       "id": 4,
       "albumId": 1,
-      "coartists": []
+      "coartists": ""
     },
     {
       "name": "Let's Get Lost",
@@ -183,7 +210,7 @@
       "durationSeconds" : 198,
       "id": 5,
       "albumId": 1,
-      "coartists": []
+      "coartists": ""
     }
   ]
 }

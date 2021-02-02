@@ -6,7 +6,7 @@ type ButtonType = "primary" | "circle" | "basic"
 interface ButtonProps {
   type?: ButtonType,
   text?: string,
-  className: string,
+  className?: string,
   children?: React.ReactNode,
 }
 

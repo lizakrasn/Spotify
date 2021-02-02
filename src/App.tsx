@@ -3,7 +3,7 @@ import './App.scss';
 import { Header } from './header/header';
 import { Main } from './main/main';
 
-import artist from './data/artist.json'
+import artist from './data/artistData'
 
 function App() {
   const [currentArtist, setCurrentArtist] = useState(artist);
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Main artist={artist} />
+      <Main />
       <div style={{height: "50px"}}>
         <p>Footer Hello!</p>
       </div>

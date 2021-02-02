@@ -1,15 +1,11 @@
 import React from 'react';
 import './main.scss'
-import ArtistModel from '../data/artist';
 
 import { Artist } from './components/artist/artist';
 import { Menu } from './components/menu/menu';
 
-interface MainProps {
-  artist: ArtistModel,
-}
 
-export const Main = ({artist}: MainProps) => {
+export const Main = () => {
 
   return (
     <div className="content">
@@ -18,7 +14,7 @@ export const Main = ({artist}: MainProps) => {
       </div>
 
       <div className="content__artist">
-        <Artist artist={artist}/>
+        <Artist />
       </div>
     </div>
   )

@@ -2,8 +2,28 @@
 
 .overview {
   padding: 15px;
-  display: flex;
-  justify-content: space-between;
+
+  &__info {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  &__artist {
+    width: 70%;
+    padding-right: 15px;
+  }
+
+  &__latest-release {
+    margin-bottom: 30px;
+  }
+
+  &__related {
+    width: 30%;
+  }
+
+  &__albums {
+    margin-bottom: 15px;
+  }
 
   &__title {
     text-transform: uppercase;

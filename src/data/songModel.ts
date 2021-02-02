@@ -1,3 +1,5 @@
+export type PopularityType = "up" | "down";
+
 export default interface SongModel {
   name: string,
   imgUrl: string,
@@ -5,5 +7,7 @@ export default interface SongModel {
   durationSeconds : number,
   id: number,
   albumId: number,
-  coartists : string[]
+  popularity?: PopularityType,
+  isAdded?: boolean,
+  coartists: string
 }
