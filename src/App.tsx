@@ -4,6 +4,7 @@ import { Header } from './header/header';
 import { Main } from './main/main';
 
 import artist from './data/artistData'
+import { CurrentTrack } from './currentTrack/currentTrack';
 
 function App() {
   const [currentArtist, setCurrentArtist] = useState(artist);
@@ -12,9 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Main />
-      <div style={{height: "50px"}}>
-        <p>Footer Hello!</p>
-      </div>
+      <CurrentTrack />
     </div>
   );
 }

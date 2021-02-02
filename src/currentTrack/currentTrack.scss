@@ -1,0 +1,10 @@
+@import '../helpers/variables';
+
+.current-track {
+  padding: 5px 15px;
+  background-color: $light-black;
+
+  &__actions {
+    width: 10%;
+  }
+}
