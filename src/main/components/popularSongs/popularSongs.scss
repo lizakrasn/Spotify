@@ -10,4 +10,8 @@
   &__track:last-child {
     border-bottom: 1px solid $light-black;
   }
+
+  &__button {
+    margin-top: 15px;
+  }
 }

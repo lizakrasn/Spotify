@@ -1,52 +1,50 @@
+@import '../../helpers/variables';
+
 .tabs {
-  width: 100%;
+  width: fit-content;
+  height: 100%;
   text-decoration: none;
+  font-family: inherit;
 
   &__list {
     display: flex;
   }
 
   &__tab {
+    width: 180px;
     flex-grow: 1;
     padding: 15px;
 
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
     list-style-type: none;
-    color: white;
+    color: $grey;
   
-    background-color: rgb(149, 149, 248);
-    border: 1px solid black;
-    border-right: none;
-    border-radius: 0;
+    background-color: transparent;
 
     transition: 300ms;
     transition-property: background-color, color;
 
     cursor: pointer;
 
-    &:last-child {
-      border-right: 1px solid black;
-    }
-
     &:hover {
-      color: white;
-      background-color: rgb(124, 124, 250);
+      color: $white;
     }
 
     &--is-active {
-      color: black;
-      background-color: white;
+      color: $white;
     }
   }
 
   &__slider {
-    height: 5px;
+    height: 4px;
     margin-top: 6px;
-    border-radius: 50px;
 
-    background-color: rgb(149, 149, 248);
+    background-color: $green;;
     transition: transform 500ms;
   }
 }

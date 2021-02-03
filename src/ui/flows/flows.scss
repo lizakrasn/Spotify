@@ -1,0 +1,16 @@
+@import '../../helpers/variables';
+
+.flows {
+  display: flex;
+  margin-right: 15px;
+  width: 60px;
+  color: $grey;
+
+  &__item {
+    margin: 0 5px;
+  }
+
+  @media screen and(max-width: 350px){
+    flex-direction: column;
+  }
+}

@@ -18,6 +18,12 @@
 
   &__added {
     margin: 0 30px 0 20px;
+
+    color: $grey;
+    border: none;
+    outline: none;
+
+    background-color: inherit;
   }
 
   &__name {

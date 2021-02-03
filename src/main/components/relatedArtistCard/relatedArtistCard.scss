@@ -21,4 +21,14 @@
     text-decoration: none;
     font-size: 14px;
   }
+
+  @media screen and (max-width: 1024px) {
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 5px;
+    width: calc(100% / 2 - 10px);
+  }
 }

@@ -3,6 +3,7 @@ import "./header.scss"
 import {Search} from "./components/search/search"
 import {User} from "./components/user/user"
 import userData from "../data/user.json";
+import { Flows } from '../ui/flows/flows';
 
 export const Header = () => {
   const [searchValue, setSearchValue] = useState('');
@@ -14,10 +15,18 @@ export const Header = () => {
 
   return (
     <div className="header">
-      <Search
-        value={searchValue}
-        onChange={onChangeInput}
-      />
+      <div className="header__search-block">
+        <div className="header__flows">
+          <Flows />
+        </div>
+        <div className="header__search">
+          <Search
+            value={searchValue}
+            onChange={onChangeInput}
+          />
+        </div>
+      </div>
+
       <User
         user={user}
       />

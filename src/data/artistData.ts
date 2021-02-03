@@ -150,6 +150,50 @@ export default <ArtistModel>{
           "popularity": "up",
           "isAdded": true,
           "coartists": "Marc E. Bassy"
+        },
+        {
+          "name": "Think About You",
+          "imgUrl": "",
+          "durationSeconds" : 179,
+          "listens": 1,
+          "id": 13,
+          "albumId": 1,
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": "Quin"
+        },
+        {
+          "name": "Everything Will Be OK",
+          "imgUrl": "",
+          "durationSeconds" : 311,
+          "listens": 1,
+          "id": 14,
+          "albumId": 1,
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": "Kehlani"
+        },
+        {
+          "name": "For This",
+          "imgUrl": "",
+          "durationSeconds" : 251,
+          "listens": 1,
+          "id": 15,
+          "albumId": 1,
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": "Iamnobodi"
+        },
+        {
+          "name": "Nothing to Me",
+          "imgUrl": "",
+          "durationSeconds" : 330,
+          "listens": 1,
+          "id": 16,
+          "albumId": 1,
+          "popularity": "up",
+          "isAdded": true,
+          "coartists": "Keyshia Cole E-40"
         }
       ]
     }
@@ -174,6 +218,7 @@ export default <ArtistModel>{
       "durationSeconds" : 245,
       "id": 1,
       "albumId": 1,
+      "isAdded": true,
       "coartists": ""
     },
     {
@@ -183,6 +228,7 @@ export default <ArtistModel>{
       "durationSeconds" : 205,
       "id": 2,
       "albumId": 1,
+      "isAdded": false,
       "coartists": ""
     },
     {
@@ -192,6 +238,7 @@ export default <ArtistModel>{
       "durationSeconds" : 185,
       "id": 3,
       "albumId": 1,
+      "isAdded": true,
       "coartists": ""
     },
     {
@@ -201,6 +248,7 @@ export default <ArtistModel>{
       "durationSeconds" : 265,
       "id": 4,
       "albumId": 1,
+      "isAdded": false,
       "coartists": ""
     },
     {
@@ -210,6 +258,7 @@ export default <ArtistModel>{
       "durationSeconds" : 198,
       "id": 5,
       "albumId": 1,
+      "isAdded": true,
       "coartists": ""
     }
   ]

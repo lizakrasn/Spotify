@@ -2,6 +2,7 @@ import React from 'react';
 import './popularSongs.scss';
 import SongModel from '../../../data/songModel';
 import { Track } from '../track/track';
+import { Button } from '../../../ui/button/button';
 
 interface PopularSongsProps {
   songs: SongModel[]
@@ -10,13 +11,19 @@ interface PopularSongsProps {
 export const PopularSongs = ({songs}: PopularSongsProps) => {
   return(
     <div className="tracks">
-      {songs.map((song, index) => {
-        return (
-          <div className="tracks__track">
-            <Track song={song} index={index} />
-          </div>
-        )
-      })}
+      <div className="tracks__list">
+        {songs.map((song, index) => {
+          return (
+            <div className="tracks__track">
+              <Track song={song} index={index} />
+            </div>
+          )
+        })}
+      </div>
+      
+      <div className="tracks__button">
+        <Button type="basic" text="Show 5 more"/>
+      </div>
     </div>
   )
 }

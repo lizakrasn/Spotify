@@ -66,7 +66,6 @@ export const Artist = () => {
         </div>
 
         <div className="artist__tabs">
-          <p>Tabs</p>
           <Tabs
             tabs={tabs}
             activeTab={activeTab}

@@ -1,8 +1,9 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './navigation.scss';
 
 import { IoIosArrowUp } from 'react-icons/io';
 import { IoIosArrowDown } from 'react-icons/io';
+
 
 interface NavigationProps {
   name: string
@@ -10,7 +11,25 @@ interface NavigationProps {
 }
 
 export const Navigation = ({name, children}: NavigationProps) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(true);
+
+  useEffect(() => {
+    const resizeHandler = () => {
+      const width = window.innerWidth
+  
+      if (width < 768) {
+        setIsOpen(false)
+      } else {
+        setIsOpen(true)
+      }
+    }
+
+    window.addEventListener('resize', resizeHandler)
+
+    return () => {
+      window.removeEventListener('resize', resizeHandler)
+    }
+  }, [])
 
   const actionButton = () => {
     setIsOpen(!isOpen);

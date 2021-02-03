@@ -1,14 +1,13 @@
 @import '../../../helpers/variables';
 
 .artist {
-
   &__header {
     height: 320px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 15px;
+    padding-top: 15px;
 
     background-image: url('/assets/images/bg-shadow.png');
     background-repeat: no-repeat;
@@ -23,7 +22,8 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: inherit;
+    height: 100%;
+
     z-index: -1;
     opacity: 0.15;
     background-repeat: no-repeat;
@@ -36,6 +36,7 @@
     grid-template-columns: auto auto 1fr;
     align-items: end;
     width: inherit;
+    padding: 0 15px;
   }
 
   &__image-container {
@@ -104,5 +105,44 @@
 
   &__related-artists {
     padding: 15px;
+  }
+
+  &__tabs {
+    height: 60px;
+    width: 100%;
+    margin-top: 15px;
+    background: rgba(24, 24, 24, 0.6);
+    // background-color: green;
+  }
+
+  @media screen and(max-width: 520px) {
+    &__header {
+      height: auto;
+    }
+
+    &__info-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__info {
+      padding-bottom: 15px;
+      text-align: center;
+    }
+
+    &__title {
+      margin-top: 10px;
+    }
+
+    &__image {
+      margin: 0;
+    }
+
+    &__listeners {
+      padding: 15px;
+      text-align: center;
+    }
   }
 }

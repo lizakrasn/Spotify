@@ -18,7 +18,7 @@ export const User = ({user} : UserProps) => {
   }
 
   return (
-    <div className="user header__user">
+    <div className="user">
       <div className="user__notifications">
         <FaBell size={17}/>
       </div>

@@ -18,5 +18,13 @@
   {
     "artist": "Big Sean",
     "imgUrl": "/images/bigSean.jpg"
+  },
+  {
+    "artist": "Wiz Khalifa",
+    "imgUrl": "/images/wiz.jpeg"
+  },
+  {
+    "artist": "Yonas",
+    "imgUrl": "/images/yonas.jpg"
   }
 ]

@@ -50,4 +50,26 @@
   &__item-text {
     margin-left: 15px;
   }
+
+  @media screen and (max-width: 768px) {
+    &__button {
+      margin: 0 auto 5px;
+    }
+
+    &__list-items {
+      width: fit-content;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and(max-width: 450px){
+    &__icon {
+      display: none;
+    }
+
+    &__item-text {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
 }

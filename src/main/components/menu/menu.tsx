@@ -23,34 +23,48 @@ export const Menu = () => {
       <section className="menu__navigation-block">
         <Navigation name='Main'>
           <a href="#" className="navigation__item">
-            <VscBrowser size={12}/>
+            <span className="navigation__icon">
+              <VscBrowser size={12}/>
+            </span>
             <p className="navigation__item-text">Browse</p>
           </a>
           <a href="#" className="navigation__item">
-            <BsFillPeopleFill size={12} />
+            <span className="navigation__icon">
+              <BsFillPeopleFill size={12} />
+            </span>
             <p className="navigation__item-text">Activity</p>
           </a>
           <a href="#" className="navigation__item">
-            <FiRadio size={12} />
+            <span className="navigation__icon">
+              <FiRadio size={12} />
+            </span>
             <p className="navigation__item-text">Radio</p>
           </a>
         </Navigation>
 
         <Navigation name='Your music'>
           <a href="#" className="navigation__item">
-            <FaHeadphones size={12}/>
+            <span className="navigation__icon">
+              <FaHeadphones size={12}/>
+            </span>
             <p className="navigation__item-text">Songs</p>
           </a>
           <a href="#" className="navigation__item">
-            <FaMusic size={12} />
+            <span className="navigation__icon">
+              <FaMusic size={12} />
+            </span>
             <p className="navigation__item-text">Albums</p>
           </a>
           <a href="#" className="navigation__item">
-            <BsFillPersonFill size={12} />
+            <span className="navigation__icon">
+              <BsFillPersonFill size={12} />
+            </span>
             <p className="navigation__item-text">Artists</p>
           </a>
           <a href="#" className="navigation__item">
-            <AiOutlineFile size={12} />
+            <span className="navigation__icon">
+              <AiOutlineFile size={12} />
+            </span>
             <p className="navigation__item-text">Local Files</p>
           </a>
         </Navigation>
@@ -59,7 +73,7 @@ export const Menu = () => {
           {playlist.list.map(item => {
             return (
               <a href="#" className="navigation__item">
-                <FaMusic size={12}/> 
+                <span className="navigation__icon"><FaMusic size={12}/></span>
                 <p className="navigation__item-text">{item}</p>
               </a>
             )

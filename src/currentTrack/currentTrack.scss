@@ -2,9 +2,17 @@
 
 .current-track {
   padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
   background-color: $light-black;
 
   &__actions {
     width: 10%;
+  }
+
+  &__options {
+    width: 40%;
   }
 }

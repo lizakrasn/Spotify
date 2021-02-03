@@ -24,6 +24,13 @@
       border-radius: 4px;
       background: #373737;
     }
+  }
 
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    &__menu {
+      width: 100%;
+    }
   }
 }
