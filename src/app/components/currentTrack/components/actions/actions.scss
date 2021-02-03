@@ -1,0 +1,25 @@
+@import '../../../../../helpers/variables';
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: $grey;
+
+  &__skip-backward,
+  &__skip-forward,
+  &__play {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: inherit;
+
+    cursor: pointer;
+    transition: color 300ms;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import { Artist } from "../main/components/artist/artist"
+import { Artist } from "../app/components/main/components/artist/artist"
 import ArtistModel from './artist';
 
 export default <ArtistModel>{

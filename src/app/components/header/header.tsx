@@ -3,7 +3,7 @@ import "./header.scss"
 import {Search} from "./components/search/search"
 import {User} from "./components/user/user"
 import userData from "../../../data/user.json";
-import { Flows } from '../../../ui/flows/flows';
+import { Flows } from '../ui/flows/flows';
 
 export const Header = () => {
   const [searchValue, setSearchValue] = useState('');
