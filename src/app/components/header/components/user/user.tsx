@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import UserModel from '../../../data/user';
+import UserModel from '../../../../../data/user';
 import "./user.scss";
 
 import { FaBell } from 'react-icons/fa';
