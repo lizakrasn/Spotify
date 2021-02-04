@@ -4,14 +4,14 @@ import ArtistModel from './artist';
 export default <ArtistModel>{
   "name": "G-Eazy",
   "id": 1,
-  "imgUrl": "/images/g-eazy.jpg",
+  "imgUrl": "./images/g-eazy.jpg",
   "backgroundImgUrl": "/images/bg-artist.png",
   "listeners": 15662810,
   "albums": [
     {
       "id": 1,
       "name": "When It's Dark Out",
-      "imgUrl": "/images/song-image-2.jpg",
+      "imgUrl": "./images/song-image-2.jpg",
       "release": {
         "year": 2015,
         "month": "december",
