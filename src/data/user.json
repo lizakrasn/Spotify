@@ -1,5 +1,5 @@
 {
   "name": "Adam",
   "surname": "Lowenthal",
-  "image": "/images/user.jpg"
+  "image": "./images/user.jpg"
 }

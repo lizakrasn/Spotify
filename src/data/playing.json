@@ -1,5 +1,5 @@
 {
   "name": "Some Type of Love",
   "artist": "Charlie Puth",
-  "image": "/images/cur-song.jpg"
+  "image": "./images/cur-song.jpg"
 }

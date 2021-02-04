@@ -5,7 +5,7 @@ export default <ArtistModel>{
   "name": "G-Eazy",
   "id": 1,
   "imgUrl": "./images/g-eazy.jpg",
-  "backgroundImgUrl": "/images/bg-artist.png",
+  "backgroundImgUrl": "./images/bg-artist.png",
   "listeners": 15662810,
   "albums": [
     {
@@ -201,7 +201,7 @@ export default <ArtistModel>{
   "lastAlbum": {
     "id": 2,
     "name": "Drifting (Track Commentary)",
-    "imgUrl": "/images/song-image-2.jpg",
+    "imgUrl": "./images/song-image-2.jpg",
     "release": {
       "year": 2015,
       "month": "December",
@@ -213,7 +213,7 @@ export default <ArtistModel>{
   "popularSongs": [
     {
       "name": "Me, Myself & I",
-      "imgUrl": "/images/song-image-2.jpg",
+      "imgUrl": "./images/song-image-2.jpg",
       "listens": 147544165,
       "durationSeconds" : 245,
       "id": 1,
@@ -223,7 +223,7 @@ export default <ArtistModel>{
     },
     {
       "name": "I Mean It",
-      "imgUrl": "/images/song-image.jpg",
+      "imgUrl": "./images/song-image.jpg",
       "listens": 74568782,
       "durationSeconds" : 205,
       "id": 2,
@@ -233,7 +233,7 @@ export default <ArtistModel>{
     },
     {
       "name": "Calm Down",
-      "imgUrl": "/images/song-image-2.jpg",
+      "imgUrl": "./images/song-image-2.jpg",
       "listens": 13737506,
       "durationSeconds" : 185,
       "id": 3,
@@ -243,7 +243,7 @@ export default <ArtistModel>{
     },
     {
       "name": "Some Kind Of Drug",
-      "imgUrl": "/images/song-image-2.jpg",
+      "imgUrl": "./images/song-image-2.jpg",
       "listens": 12234881,
       "durationSeconds" : 265,
       "id": 4,
@@ -253,7 +253,7 @@ export default <ArtistModel>{
     },
     {
       "name": "Let's Get Lost",
-      "imgUrl": "/images/song-image.jpg",
+      "imgUrl": "./images/song-image.jpg",
       "listens": 40882954,
       "durationSeconds" : 198,
       "id": 5,
