@@ -1,21 +1,17 @@
 import React, { useState } from 'react';
 import { Range, getTrackBackground } from 'react-range';
-import './volume.scss';
+import './trackProgressBar.scss';
 
 const STEP = 0.1;
 const MIN = 0;
 const MAX = 100;
 
-export const TrackProgress = () => {
+export const TrackProgressBar = () => {
   const [value, setValue] = useState([50])
 
   return (
     <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        flexWrap: 'wrap'
-      }}
+      className="track-progress-bar"
     >
       <Range
         values={value}
@@ -27,19 +23,20 @@ export const TrackProgress = () => {
           <div
             onMouseDown={props.onMouseDown}
             onTouchStart={props.onTouchStart}
+            className="track-progress-bar__container-track"
             style={{
               ...props.style,
               display: 'flex',
-              width: '70px'
+              width: '100%'
             }}
           >
             <div
-              className="volume__base"
               ref={props.ref}
+              className="track-progress-bar__track"
               style={{
                 background: getTrackBackground({
                   values: value,
-                  colors: ['rgb(170, 170, 170)', 'rgb(66, 66, 66)'],
+                  colors: ['#1ed760', 'rgb(66, 66, 66)'],
                   min: MIN,
                   max: MAX
                 }),
@@ -51,7 +48,7 @@ export const TrackProgress = () => {
         )}
         renderThumb={({ props }) => (
           <div
-            className="volume__thumb"
+            className="track-progress-bar__thumb"
             {...props}
             style={{
               ...props.style,

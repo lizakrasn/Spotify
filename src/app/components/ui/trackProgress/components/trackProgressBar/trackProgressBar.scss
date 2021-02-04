@@ -1,25 +1,29 @@
-@import '../../../../helpers/variables';
-
-.volume {
+.track-progress-bar {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
+  padding: 0 15px;
+
+  &__track-container {
+    display: flex;
+    width: 100%;
+  }
 
   &__track {
     height: 4px;
     width: 100%;
     align-self: center;
-    margin-left: 5px;
 
     &:hover {
-      .volume__thumb {
+      .track-progress-bar__thumb {
         opacity: 1;
       }
     }
   }
 
-
   &__thumb {
+    cursor: pointer;
     height: 15px;
     width: 15px;
     border-radius: 50%;
@@ -31,4 +35,3 @@
     opacity: 0;
   }
 }
-

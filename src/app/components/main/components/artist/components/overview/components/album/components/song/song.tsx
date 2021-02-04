@@ -26,13 +26,24 @@ export const Song = ({song, index}: SongProps) => {
   const minutes = Math.floor(song.durationSeconds / 60)
   const seconds = (song.durationSeconds % 60).toString().padStart(2, "0")
 
+  const addCoartist = (coartist: string) => {
+    if (coartist.length === 0) {
+      return ""
+    } else {
+      return ` - ${coartist}`
+    }
+  }
+
   return (
     <div className="song">
       <p className="song__number">{index + 1}</p>
       <button className="song__added">
         {song.isAdded ? <ImCheckmark/> : <GoPlus/>}
       </button>
-      <p className="song__name">{song.name}</p>
+      <p className="song__name">
+        {song.name}
+        <span className="song__coartists">{addCoartist(song.coartists)}</span>
+      </p>
       <p className="song__explicit">explicit</p>
       <p className="song__duration">{`${minutes} : ${seconds}`}</p>
       <div className="song__popularity">

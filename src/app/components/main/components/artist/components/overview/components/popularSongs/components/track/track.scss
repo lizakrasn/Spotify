@@ -6,6 +6,12 @@
   align-items: center;
   font-size: 14px;
 
+  transition: background-color 300ms;
+
+  &:hover {
+    background-color: #282828;
+  }
+
   &__art {
     width: 42px;
     height: 42px;
@@ -41,8 +47,8 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    color: #424242;
-    border: 1px solid $light-black;
+    color: $light-grey;
+    border: 1px solid $light-grey;
     
   }
 

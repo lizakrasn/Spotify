@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Range, getTrackBackground } from 'react-range';
 import './volume.scss';
 
+import { BsVolumeUpFill } from 'react-icons/bs';
+
 const STEP = 0.1;
 const MIN = 0;
 const MAX = 100;
@@ -10,13 +12,8 @@ export const Volume = () => {
   const [value, setValue] = useState([50])
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        flexWrap: 'wrap'
-      }}
-    >
+    <div className="volume">
+      <BsVolumeUpFill size={15} />
       <Range
         values={value}
         step={STEP}
@@ -27,6 +24,7 @@ export const Volume = () => {
           <div
             onMouseDown={props.onMouseDown}
             onTouchStart={props.onTouchStart}
+            className="volume__container-track"
             style={{
               ...props.style,
               display: 'flex',
@@ -34,7 +32,7 @@ export const Volume = () => {
             }}
           >
             <div
-              className="volume__base"
+              className="volume__track"
               ref={props.ref}
               style={{
                 background: getTrackBackground({
