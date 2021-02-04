@@ -58,4 +58,22 @@
     text-align: end;
     font-size: 14px;
   }
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: auto auto auto 1fr auto;
+
+    &__explicit {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    &__added {
+      margin: 0 10px 0 3px;
+    }
+
+    &__listens {
+      width: 100%;
+    }
+  }
 }

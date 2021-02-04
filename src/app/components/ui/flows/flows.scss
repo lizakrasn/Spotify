@@ -4,10 +4,14 @@
   display: flex;
   margin-right: 15px;
   width: 60px;
-  color: $grey;
 
   &__item {
     margin: 0 5px;
+    color: $grey;
+
+    &--is-active {
+      color: $white;
+    }
   }
 
   @media screen and(max-width: 350px){

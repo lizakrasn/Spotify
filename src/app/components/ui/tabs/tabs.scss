@@ -47,4 +47,12 @@
     background-color: $green;;
     transition: transform 500ms;
   }
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+
+    &__tab {
+      padding: 15px 0;
+    }
+  }
 }

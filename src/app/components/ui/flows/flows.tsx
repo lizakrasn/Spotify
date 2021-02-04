@@ -7,10 +7,10 @@ import { IoIosArrowForward} from 'react-icons/io';
 export const Flows = () => {
   return (
     <div className="flows">
-      <span className="flow__item">
+      <span className="flows__item flows__item--is-active">
         <IoIosArrowBack size={27} />
       </span>
-      <span className="flow__item">
+      <span className="flows__item">
         <IoIosArrowForward size={27} />
       </span>
     </div>

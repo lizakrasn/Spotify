@@ -17,7 +17,7 @@ export const Navigation = ({name, children}: NavigationProps) => {
     const resizeHandler = () => {
       const width = window.innerWidth
   
-      if (width < 768) {
+      if (width <= 768) {
         setIsOpen(false)
       } else {
         setIsOpen(true)

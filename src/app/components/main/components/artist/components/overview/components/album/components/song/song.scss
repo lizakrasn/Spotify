@@ -57,4 +57,20 @@
     margin-left: 40px;
     padding-right: 10px;
   }
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: auto auto 1fr auto;
+
+    &__explicit {
+      display: none;
+    }
+
+    &__duration {
+      margin-left: 10px;
+    }
+
+    &__popularity {
+      display: none;
+    }
+  }
 }

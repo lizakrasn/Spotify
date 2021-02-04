@@ -43,7 +43,7 @@
   }
 
   &__song-heading {
-    padding: 10px 0;
+    padding: 20px 0 10px;
     display: grid;
     grid-template-columns: auto auto 1fr auto;
     justify-items: end;
@@ -66,5 +66,15 @@
 
   &__song:last-child {
     border-bottom: 1px solid $light-black;
+  }
+
+  @media screen and (max-width: 1200px) {
+    &__song-heading {
+      grid-template-columns: auto auto 1fr;
+    }
+
+    &__heading-popularity {
+      display: none;
+    }
   }
 }

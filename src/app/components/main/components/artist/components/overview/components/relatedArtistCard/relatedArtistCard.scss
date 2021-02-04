@@ -8,6 +8,13 @@
   background-color: $light-black;
   border-bottom: 2px solid black;
 
+  cursor: pointer;
+  transition: background-color 300ms;
+
+  &:hover {
+    background-color: $hover-grey;
+  }
+
   &__image {
     width: 42px;
     height: 42px;
@@ -30,5 +37,16 @@
   @media screen and (max-width: 768px) {
     margin: 5px;
     width: calc(100% / 2 - 10px);
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 20%;
+    margin: 5px;
+    background-color: $background-color-second;
+    border: none;
+
+    &__name {
+      display: none;
+    }
   }
 }
