@@ -1,5 +1,6 @@
 import react, { Children } from 'react';
 import './button.scss';
+import classNames from 'classnames';
 
 type ButtonType = "primary" | "circle" | "basic"
 
@@ -11,13 +12,14 @@ interface ButtonProps {
 }
 
 export const Button = ({type, className, text, children}: ButtonProps) => {
-  const typeModifier = 
-    type === "primary" ? "button--primary"
-    : type === "circle" ? "button--circle"
-    : ""
+  const classes = classNames(
+    className,
+    'button',
+    `button--${type}`
+  )
 
   return (
-    <button className={`button ${className ?? ''} ${typeModifier}`}>
+    <button className={classes}>
       {text ?? children}
     </button>
   )

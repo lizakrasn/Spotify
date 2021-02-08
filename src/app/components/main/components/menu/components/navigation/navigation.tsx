@@ -45,13 +45,11 @@ export const Navigation = ({name, children}: NavigationProps) => {
         <p className="navigation__name">{name}</p>
         {isOpen ? <IoIosArrowUp size={15}/> : <IoIosArrowDown size={15}/>}
       </button>
-      {isOpen
-        ? (
-            <div className="navigation__list-items">
-              {children}
-            </div>
-          )
-        : <></>}
+      {isOpen &&
+        <div className="navigation__list-items">
+          {children}
+        </div>
+      }
     </div>
 
   )
