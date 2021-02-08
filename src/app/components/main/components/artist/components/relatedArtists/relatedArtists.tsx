@@ -13,7 +13,7 @@ export const RelatedArtists = ({artistsData}: RelatedArtistsProps) => {
     <div className="related-artists">
       {artistsData.map(card => {
         return (
-          <div className="related-artists__item">
+          <div key={card.id} className="related-artists__item">
             <ArtistCard artist={card.artist} imgUrl={card.imgUrl}/>
           </div>
         )
