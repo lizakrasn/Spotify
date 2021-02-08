@@ -2,8 +2,8 @@ import React from 'react';
 import './artistCard.scss';
 
 interface ArtistCardProps {
-  artist: string,
-  imgUrl: string
+  artist: string;
+  imgUrl: string;
 }
 
 export const ArtistCard = ({artist, imgUrl}: ArtistCardProps) => {

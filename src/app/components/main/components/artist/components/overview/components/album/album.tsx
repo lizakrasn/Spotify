@@ -8,7 +8,7 @@ import { GiAlarmClock } from 'react-icons/gi';
 import { AiTwotoneLike } from 'react-icons/ai';
 
 interface AlbumProps {
-  album: AlbumModel
+  album: AlbumModel;
 }
 
 export const Album = ({album}: AlbumProps) => {

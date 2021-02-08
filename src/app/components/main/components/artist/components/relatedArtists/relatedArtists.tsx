@@ -5,7 +5,7 @@ import { ArtistCard } from './components/artistCard/artistCard';
 import ArtistsModel from '../../../../../../../data/relatedArtists';
 
 interface RelatedArtistsProps {
-  artistsData: ArtistsModel[]
+  artistsData: ArtistsModel[];
 }
 
 export const RelatedArtists = ({artistsData}: RelatedArtistsProps) => {

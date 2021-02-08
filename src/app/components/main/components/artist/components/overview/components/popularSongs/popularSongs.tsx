@@ -5,7 +5,7 @@ import { Track } from './components/track/track';
 import { Button } from '../../../../../../../ui/button/button';
 
 interface PopularSongsProps {
-  songs: SongModel[]
+  songs: SongModel[];
 }
 
 export const PopularSongs = ({songs}: PopularSongsProps) => {

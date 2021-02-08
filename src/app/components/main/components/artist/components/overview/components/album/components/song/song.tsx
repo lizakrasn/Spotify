@@ -8,8 +8,8 @@ import { GoPlus } from 'react-icons/go';
 import { ImCheckmark } from 'react-icons/im';
 
 interface SongProps {
-  song: SongModel,
-  index: number
+  song: SongModel;
+  index: number;
 }
 
 const popularity = (value?: PopularityType) => {

@@ -6,8 +6,8 @@ import { IoIosArrowDown } from 'react-icons/io';
 
 
 interface NavigationProps {
-  name: string
-  children: React.ReactNode
+  name: string;
+  children: React.ReactNode;
 }
 
 export const Navigation = ({name, children}: NavigationProps) => {

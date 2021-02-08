@@ -12,10 +12,10 @@ import { ViewTypes } from '../../../../../ui/viewTypes/viewTypes';
 
 
 interface OverviewProps {
-  albums: AlbumModel[],
-  lastAlbum: AlbumModel,
-  popularSongs: SongModel[],
-  relatedArtists: RelatedArtists[]
+  albums: AlbumModel[];
+  lastAlbum: AlbumModel;
+  popularSongs: SongModel[];
+  relatedArtists: RelatedArtists[];
 }
 
 export const Overview = ({

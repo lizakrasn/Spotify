@@ -18,14 +18,6 @@ export const CurrentTrack = () => {
         </div>
       </div>
 
-      {/* <div className="current-track__actions">
-          <Actions />
-        </div>
-
-        <div className="current-track__progress">
-          <TrackProgress />
-        </div> */}
-
       <div className="current-track__options">
         <Options />
       </div>

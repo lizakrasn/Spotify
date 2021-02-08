@@ -7,7 +7,7 @@ import { FaInbox } from 'react-icons/fa';
 import { IoIosArrowDown } from 'react-icons/io';
 
 interface UserProps {
-  user: UserModel
+  user: UserModel;
 }
 
 export const User = ({user} : UserProps) => {

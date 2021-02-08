@@ -6,8 +6,8 @@ import { GoPlus } from 'react-icons/go';
 import { ImCheckmark } from 'react-icons/im';
 
 interface TrackProps {
-  song: SongModel,
-  index: number
+  song: SongModel;
+  index: number;
 }
 
 export const Track = ({song, index}: TrackProps) => {

@@ -11,10 +11,10 @@ function calculateTransform(tabs: TabsModel[], activeTab: TabsModel) {
 }
 
 interface TabsProps {
-  tabs: TabsModel[]
-  activeTab: TabsModel,
-  onChange: (tab: TabsModel) => void,
-  renderTab?: (tab: TabsModel, index: number) => React.ReactNode
+  tabs: TabsModel[];
+  activeTab: TabsModel;
+  onChange: (tab: TabsModel) => void;
+  renderTab?: (tab: TabsModel, index: number) => React.ReactNode;
 }
 
 export const Tabs = ({

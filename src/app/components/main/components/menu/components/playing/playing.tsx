@@ -5,7 +5,7 @@ import SongModel from '../../../../../../../data/song';
 import { GiCheckMark } from 'react-icons/gi';
 
 interface PlayingProps {
-  song: SongModel
+  song: SongModel;
 }
 
 export const Playing = ({song}: PlayingProps) => {

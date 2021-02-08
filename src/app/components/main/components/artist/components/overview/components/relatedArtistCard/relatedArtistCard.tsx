@@ -4,7 +4,7 @@ import './relatedArtistCard.scss';
 import relatedArtists from '../../../../../../../../../data/relatedArtists';
 
 interface RelatedArtistsProps {
-  artist: relatedArtists,
+  artist: relatedArtists;
 }
 
 export const RelatedArtistCard = ({artist}: RelatedArtistsProps) => {

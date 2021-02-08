@@ -2,11 +2,11 @@ import React from 'react';
 import TabsModel from '../../../../data/tabs';
 
 interface TabItemProps {
-  tab: TabsModel,
-  index: number,
-  isActive: boolean,
-  onClick: () => void,
-  renderTab?: (tab: TabsModel, index: number) => React.ReactNode
+  tab: TabsModel;
+  index: number;
+  isActive: boolean;
+  onClick: () => void;
+  renderTab?: (tab: TabsModel, index: number) => React.ReactNode;
 }
 
 export const TabItem = ({

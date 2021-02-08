@@ -4,10 +4,10 @@ import './button.scss';
 type ButtonType = "primary" | "circle" | "basic"
 
 interface ButtonProps {
-  type?: ButtonType,
-  text?: string,
-  className?: string,
-  children?: React.ReactNode,
+  type?: ButtonType;
+  text?: string;
+  className?: string;
+  children?: React.ReactNode;
 }
 
 export const Button = ({type, className, text, children}: ButtonProps) => {

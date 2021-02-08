@@ -3,7 +3,7 @@ import AlbumModel from '../../../../../../../../../data/albumModel';
 import './latestRelease.scss';
 
 interface LatestReleaseProps {
-  album: AlbumModel
+  album: AlbumModel;
 }
 
 export const LatestRelease = ({album}: LatestReleaseProps) => {
