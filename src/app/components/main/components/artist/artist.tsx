@@ -69,7 +69,7 @@ export const Artist = () => {
           <Tabs
             tabs={tabs}
             activeTab={activeTab}
-            onChange={setActiveTab}
+            handleOnClick={setActiveTab}
           />
         </div>
       </div>
@@ -81,7 +81,7 @@ export const Artist = () => {
           </div>
         )
         : (
-          <div>
+          <div className="artist__overview">
             <Overview
               albums={artist.albums}
               lastAlbum={artist.lastAlbum}

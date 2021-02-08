@@ -31,7 +31,7 @@ export const Navigation = ({name, children}: NavigationProps) => {
     }
   }, [])
 
-  const actionButton = () => {
+  const handleOnClick = () => {
     setIsOpen(!isOpen);
   }
 
@@ -40,7 +40,7 @@ export const Navigation = ({name, children}: NavigationProps) => {
       <button
         type="button"
         className="navigation__button"
-        onClick={() => actionButton()}
+        onClick={handleOnClick}
       >
         <p className="navigation__name">{name}</p>
         {isOpen ? <IoIosArrowUp size={15}/> : <IoIosArrowDown size={15}/>}

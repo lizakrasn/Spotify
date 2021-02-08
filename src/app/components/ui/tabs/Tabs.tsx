@@ -13,14 +13,14 @@ function calculateTransform(tabs: TabsModel[], activeTab: TabsModel) {
 interface TabsProps {
   tabs: TabsModel[];
   activeTab: TabsModel;
-  onChange: (tab: TabsModel) => void;
+  handleOnClick: (tab: TabsModel) => void;
   renderTab?: (tab: TabsModel, index: number) => React.ReactNode;
 }
 
 export const Tabs = ({
   tabs,
   activeTab,
-  onChange,
+  handleOnClick,
   renderTab
 }: TabsProps) => (
   <div className="tabs">
@@ -30,7 +30,7 @@ export const Tabs = ({
           isActive={Object.is(activeTab, tab)}
           tab={tab}
           index={index}
-          onClick={() => onChange(tab)}
+          handleOnClick={() => handleOnClick(tab)}
           renderTab={renderTab}
           key={index}
         />

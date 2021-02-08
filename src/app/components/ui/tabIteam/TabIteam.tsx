@@ -5,14 +5,14 @@ interface TabItemProps {
   tab: TabsModel;
   index: number;
   isActive: boolean;
-  onClick: () => void;
+  handleOnClick: () => void;
   renderTab?: (tab: TabsModel, index: number) => React.ReactNode;
 }
 
 export const TabItem = ({
   tab,
   index,
-  onClick,
+  handleOnClick,
   isActive,
   renderTab
 }: TabItemProps) => (
@@ -20,7 +20,7 @@ export const TabItem = ({
     className={isActive
       ? 'tabs__tab tabs__tab--is-active'
       : 'tabs__tab'}
-    onClick={() => onClick()}
+    onClick={handleOnClick}
   >
     {!renderTab
       ? tab.label
