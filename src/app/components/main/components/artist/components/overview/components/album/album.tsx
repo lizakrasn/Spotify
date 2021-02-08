@@ -46,7 +46,7 @@ export const Album = ({album}: AlbumProps) => {
       <div>
         {album.songs.map((song, index) => {
           return (
-            <div className="album__song">
+            <div key={song.id} className="album__song">
               <Song song={song} index={index}/>
             </div>
           )

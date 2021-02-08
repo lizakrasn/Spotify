@@ -1,5 +1,4 @@
 import React from 'react';
-import RelatedArtists from '../../../../../../../../../data/relatedArtists';
 import './relatedArtistCard.scss';
 import relatedArtists from '../../../../../../../../../data/relatedArtists';
 

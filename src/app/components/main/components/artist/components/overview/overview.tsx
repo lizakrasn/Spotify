@@ -9,6 +9,7 @@ import AlbumModel from '../../../../../../../data/albumModel';
 import SongModel from '../../../../../../../data/songModel';
 import RelatedArtists from '../../../../../../../data/relatedArtists';
 import { ViewTypes } from '../../../../../ui/viewTypes/viewTypes';
+import artistData from '../../../../../../../data/artistData';
 
 
 interface OverviewProps {
@@ -43,7 +44,10 @@ export const Overview = ({
           <div className="overview__related-artists">
             {relatedArtists.map(atrist => {
               return (
-                <RelatedArtistCard artist={atrist}/>
+                <RelatedArtistCard
+                  key={atrist.id}
+                  artist={atrist}
+                />
               )
             })}
           </div>
@@ -57,7 +61,7 @@ export const Overview = ({
         </div>
         {albums.map(album => {
           return (
-            <div className="overview__album">
+            <div key={album.id} className="overview__album">
               <Album album={album} />
             </div>
           )

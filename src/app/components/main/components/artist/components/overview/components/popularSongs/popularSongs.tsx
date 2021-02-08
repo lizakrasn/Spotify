@@ -14,7 +14,7 @@ export const PopularSongs = ({songs}: PopularSongsProps) => {
       <div className="tracks__list">
         {songs.map((song, index) => {
           return (
-            <div className="tracks__track">
+            <div key={song.id} className="tracks__track">
               <Track song={song} index={index} />
             </div>
           )

@@ -72,9 +72,9 @@ export const Menu = () => {
         <Navigation name='Playlists'>
           {playlist.list.map(item => {
             return (
-              <a href="#" className="navigation__item">
+              <a key={item.id} href="#" className="navigation__item">
                 <span className="navigation__icon"><FaMusic size={12}/></span>
-                <p className="navigation__item-text">{item}</p>
+                <p className="navigation__item-text">{item.name}</p>
               </a>
             )
           })}

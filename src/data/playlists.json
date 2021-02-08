@@ -1,16 +1,52 @@
 {
   "list": [
-    "Doo Wop",
-    "Pop Classics",
-    "Love Songs",
-    "Hipster",
-    "New Music Friday",
-    "Techno Poppers",
-    "Summer Soothers",
-    "Hard Rap",
-    "Pop Rap",
-    "5 Stars",
-    "Dope Dancin",
-    "Sleep"
+    {
+      "name": "Doo Wop",
+      "id": 1
+    },
+    {
+      "name": "Pop Classics",
+      "id": 2
+    },
+    {
+      "name": "Love Songs",
+      "id": 3
+    },
+    {
+      "name": "Hipster",
+      "id": 4
+    },
+    {
+      "name": "New Music Friday",
+      "id": 5
+    },
+    {
+      "name": "Techno Poppers",
+      "id": 6
+    },
+    {
+      "name": "Summer Soothers",
+      "id": 7
+    },
+    {
+      "name": "Hard Rap",
+      "id": 8
+    },
+    {
+      "name": "Pop Rap",
+      "id": 9
+    },
+    {
+      "name": "5 Stars",
+      "id": 10
+    },
+    {
+      "name": "Dope Dancin",
+      "id": 11
+    },
+    {
+      "name": "Sleep",
+      "id": 12
+    }
   ]
 }
