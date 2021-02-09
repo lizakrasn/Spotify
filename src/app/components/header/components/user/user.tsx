@@ -13,7 +13,7 @@ interface UserProps {
 export const User = ({user} : UserProps) => {
   const [isOpen, setIsOpen] = useState(false)
 
-  const actionsButton = () => {
+  const handleOnClick = () => {
     setIsOpen(!isOpen);
   }
 
@@ -37,29 +37,27 @@ export const User = ({user} : UserProps) => {
         <button
           className="user__button"
           type="button"
-          onClick={() => actionsButton()}
+          onClick={handleOnClick}
         >
           <IoIosArrowDown size={25}/>
         </button>
         {
-          isOpen
-            ? (
-              <ul className="user__actions-list">
-                <li className="user__action">
-                  <a className="user__action-item" href="#">Private session</a>
-                </li>
-                <li className="user__action">
-                  <a className="user__action-item" href="#">Account</a>
-                </li>
-                <li className="user__action">
-                  <a className="user__action-item" href="#">Settings</a>
-                </li>
-                <li className="user__action">
-                  <a className="user__action-item" href="#">Log Out</a>
-                </li>
-              </ul>
-            )
-            : <></>
+          isOpen && (
+            <ul className="user__actions-list">
+              <li className="user__action">
+                <a className="user__action-item" href="#">Private session</a>
+              </li>
+              <li className="user__action">
+                <a className="user__action-item" href="#">Account</a>
+              </li>
+              <li className="user__action">
+                <a className="user__action-item" href="#">Settings</a>
+              </li>
+              <li className="user__action">
+                <a className="user__action-item" href="#">Log Out</a>
+              </li>
+            </ul>
+          )
         }
       </div>
     </div>
